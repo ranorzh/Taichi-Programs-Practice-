@@ -1,4 +1,3 @@
-``` python
 import taichi as ti 
 ti.init()
 print('一维张量：')
@@ -36,4 +35,4 @@ def calculate_PI() ->ti.f32:
         sum += pow(-1,i)/n #原子操作
     return sum*4
 print('PI=',calculate_PI())
-```
+
